@@ -1,0 +1,27 @@
+Avinash Gupta
+G01009180
+Project4 CS310
+Spring 2018
+
+These are the data structures that I used.
+
+1. PriorityQueue.java
+
+In this I implemented the priority queue using a doubly linked list. I did this because it was easy to insert, remove and access the elements 
+that had the lowest and highest priority and it was efficient as well, with most of them having a Big O of O(1)/O(N).
+
+Did not use any built in classes.
+
+2. SymbolTable.java
+
+In this I implmented the pair with a Hash Map. The addresses and their symbol records, or the addresses and their stack distances pair acted as a 
+key value pair. 
+
+used java.util.HashMap
+
+3. Sequence.java
+
+In this I implemented the sequence with a Red and Black tree. This is was implemented using Tree Set class. It stored all the time and the cache elmenets
+as a tree.
+
+used java.util.TreeSet
